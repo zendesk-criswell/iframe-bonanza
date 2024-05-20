@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      iframe {
+        border: 5px solid cornflowerblue;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>shell</div>
+    </header>
+    <main>
+      <p>The `iframe` below is wrapped with a `main` element. Inside the iframe's document the content is wrapped with a `main` as well. I was always under the impression that an iframed document would be treated seaparately.</p>
+      <iframe
+        src="./module.html"
+        width="100%"
+        height="500"
+        title="Home"
+      ></iframe>
+    </main>
+  </body>
+</html>
